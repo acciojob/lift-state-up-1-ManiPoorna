@@ -8,9 +8,9 @@ const Modal = ()=>{
      
     return(
         <div className="parent">
-            <h3>Parent Component.</h3>
+            <h1>Parent Component.</h1>
             <div className="child">
-                <h3>Child Component.</h3>
+                <h1>Child Component.</h1>
                 <button onClick={()=>{setModal(true)}}>Show Modal</button>
                 {
                     modal && <div><h3>Modal Content</h3><p>This is the modal content.</p></div>
